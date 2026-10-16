@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2.6 - Form Đăng Ký</title>
+</head>
+<body>
+
+    <form action="" method="post">
+        <h1 align="center">FORM ĐĂNG KÝ</h1>
+
+        <table align="center" cellpadding="5" cellspacing="0">
+            <tr>
+                <td align="right">Họ tên</td>
+                <td>
+                    <input type="text" name="fullname">
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right">Ngày sinh</td>
+                <td>
+                    <input type="text" name="dob">
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right">Giới tính</td>
+                <td>
+                    <input type="radio" name="gender" id="male" value="Nam">
+                    <label for="male">Nam</label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="gender" id="female" value="Nữ">
+                    <label for="female">Nữ</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right" valign="top">Sở thích</td>
+                <td>
+                    <input type="checkbox" name="hobby" id="read">
+                    <label for="read">Đọc sách</label>
+                    &nbsp;&nbsp;
+                    <input type="checkbox" name="hobby" id="music">
+                    <label for="music">Nghe nhạc</label>
+                    <br>
+                    <input type="checkbox" name="hobby" id="game">
+                    <label for="game">Chơi game</label>
+                    &nbsp;&nbsp;
+                    <input type="checkbox" name="hobby" id="movie">
+                    <label for="movie">Xem phim</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right">Số điện thoại</td>
+                <td>
+                    <input type="text" name="phone">
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right" valign="top">Email</td>
+                <td>
+                    <textarea name="email" rows="2" cols="22"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Gửi">
+                    <input type="reset" value="Xóa">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
